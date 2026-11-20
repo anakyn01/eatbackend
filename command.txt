@@ -10,3 +10,11 @@ git commit -m "최초커밋"
 git branch -M main
 git remote add origin https://github.com/anakyn01/eatbackend.git
 git push -u origin main
+
+리드미가 있을경우 현재 로컬에 없어서..
+git pull origin main --rebase
+
+지금사항
+git add command.txt
+git commit -m "메모장 커맨드 입력"
+git push origin main
